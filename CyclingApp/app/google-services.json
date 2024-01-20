@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "687280106766",
+    "project_id": "group1-project-34b16",
+    "storage_bucket": "group1-project-34b16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687280106766:android:846d00bf7d92d4c3663b5f",
+        "android_client_info": {
+          "package_name": "com.uottawa.josephsreih.grimpeurscyclingclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcwt6zQQFVUkjwCXAflqC6A_Q4jnxWHRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

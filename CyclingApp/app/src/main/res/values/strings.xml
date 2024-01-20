@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Grimpeurs Cycling Club</string>
+    <string name="welcome_title">Welcome %s</string>
+    <string name="user_role_message">You are logged in as %s</string>
+</resources>

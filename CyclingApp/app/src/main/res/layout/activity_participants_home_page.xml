@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClubLoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="    Home Page"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="50sp"/>
+
+                <TextView
+                    android:id="@+id/subtitle"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="   Search for Events"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="40sp"/>
+
+                <TextView
+                    android:id="@+id/subtitle2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Search by club name:"
+                    android:textSize="30sp"/>
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:hint="Club Name: (Optional)"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:completionThreshold="1"
+                    android:dropDownHeight="wrap_content"
+                    android:dropDownVerticalOffset="5dp"
+                    android:layout_marginTop="20dp"
+                    android:dropDownHorizontalOffset="0dp"/>
+
+                <TextView
+                    android:id="@+id/subtitle2.1"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Choose an Event Type:"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:text="Time Trial"
+                    android:id="@+id/timeTrialButton"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    />
+
+
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:text="Hill Climb"
+                    android:id="@+id/hillClimbButton"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+
+                <Button
+                    android:id="@+id/groupRidesButton"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Group Rides"
+                    android:textSize="18sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/subtitle2.3"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Want to share your experience?"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25sp"/>
+
+
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:text="Rate a Club"
+                    android:id="@+id/rateButton"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
